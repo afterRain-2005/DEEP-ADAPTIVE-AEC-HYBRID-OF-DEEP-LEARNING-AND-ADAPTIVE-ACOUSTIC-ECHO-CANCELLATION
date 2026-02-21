@@ -16,22 +16,22 @@ The proposed method integrates adaptive filtering algorithms with modern deep le
 
 ```
 traeTry/
- models/
-    __init__.py
-    dnn_module.py          # LSTM-based DNN
-    nlms_module.py         # Differentiable NLMS
-    deep_adaptive_aec.py   # Full Deep Adaptive AEC model
- data/
-    dataset.py             # Synthetic dataset generator
- utils/
-    __init__.py
-    signal_processing.py   # STFT/ISTFT and signal utilities
-    metrics.py             # Evaluation metrics (ERLE, SDR, PESQ, etc.)
- training/
-    trainer.py             # Training loop and utilities
- train.py                    # Training script
- infer.py                    # Inference script
- requirements.txt            # Python dependencies
+?????? models/
+??   ?????? __init__.py
+??   ?????? dnn_module.py          # LSTM-based DNN
+??   ?????? nlms_module.py         # Differentiable NLMS
+??   ?????? deep_adaptive_aec.py   # Full Deep Adaptive AEC model
+?????? data/
+??   ?????? dataset.py             # Synthetic dataset generator
+?????? utils/
+??   ?????? __init__.py
+??   ?????? signal_processing.py   # STFT/ISTFT and signal utilities
+??   ?????? metrics.py             # Evaluation metrics (ERLE, SDR, PESQ, etc.)
+?????? training/
+??   ?????? trainer.py             # Training loop and utilities
+?????? train.py                    # Training script
+?????? infer.py                    # Inference script
+?????? requirements.txt            # Python dependencies
 ```
 
 ## Installation
